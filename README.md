@@ -7,7 +7,6 @@
 <!-- code_chunk_output -->
 
 * [Contents](#contents)
-* [1 FirstApplication](#1-firstapplication1_firstapplication)
 * [2 - BasicUIControlExercise](#2-basicuicontrolexercise2_basicuicontrolexercise)
 * [3 - BasicUIControlExercise](#3-basicuicontrolexercise3_basicuicontrolexercise)
 * [4 - LaunchMapExercise](#4-launchmapexercise4_launchmapexercise)
@@ -17,7 +16,8 @@
 
 
 
-## [1. FirstApplication](1_FirstApplication/)
+## 1 - FirstApplication
+[Link to exercise](1_FirstApplication/)
 
 <img src="./screenshots/1_FirstApplication/Screenshot_1504602584.png" alt="Drawing" width="300px"></img>
 
