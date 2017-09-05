@@ -1,20 +1,23 @@
 # TTOW0620 Android Application Development -exercises
 
 ## Contents
+
+
 <!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
 <!-- code_chunk_output -->
 
 * [Contents](#contents)
-* [1 - FirstApplication](#1-firstapplication1_firstapplication)
+* [1 FirstApplication](#1-firstapplication1_firstapplication)
 * [2 - BasicUIControlExercise](#2-basicuicontrolexercise2_basicuicontrolexercise)
 * [3 - BasicUIControlExercise](#3-basicuicontrolexercise3_basicuicontrolexercise)
-* [4 - LaunchMapExercise](#4-launchmapexercise4_basicuicontrolexercise)
+* [4 - LaunchMapExercise](#4-launchmapexercise4_launchmapexercise)
 * [5 - ListViewExercise](#5-listviewexercise4_listviewexercise)
 
 <!-- /code_chunk_output -->
 
 
-## [1 - FirstApplication](1_FirstApplication/)
+
+## [1. FirstApplication](1_FirstApplication/)
 
 <img src="./screenshots/1_FirstApplication/Screenshot_1504602584.png" alt="Drawing" width="300px"></img>
 
@@ -43,7 +46,7 @@
 
 <hr>
 
-## [4 - LaunchMapExercise](4_BasicUIControlExercise/)
+## [4 - LaunchMapExercise](4_LaunchMapExercise/)
 
 <img src="./screenshots/4_BasicUIControlExercise/Screenshot_1504623543.png" alt="Drawing" width="300px"></img>
 <img src="./screenshots/4_BasicUIControlExercise/Screenshot_1504623549.png" alt="Drawing" width="300px"></img>
