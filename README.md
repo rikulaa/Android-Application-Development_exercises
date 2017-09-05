@@ -64,7 +64,7 @@ This page contains all the screenshots and links to the individual exercises
 <hr>
 
 ## 5_ListViewExercise
-[Link to exercise](4_ListViewExercise/)
+[Link to exercise](5_ListViewExercise/)
 [Screenshots](screenshots/5_ListViewExercise)
 
 <img src="./screenshots/5_ListViewExercise/Screenshot_1504627702.png" alt="Drawing" width="300px"></img>
