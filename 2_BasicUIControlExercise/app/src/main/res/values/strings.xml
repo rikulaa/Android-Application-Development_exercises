@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BasicUIControlExercise</string>
+    <string name="radioButton1_text">Meatballs</string>
+    <string name="radioButton2_text">Chicken</string>
+    <string name="radioButton3_text">Fish</string>
+    <string name="radioButton4_text">Pork</string>
+    <string name="radioButton5_text">Lasagne</string>
+
+    <string name="button_text">Select</string>
+</resources>
