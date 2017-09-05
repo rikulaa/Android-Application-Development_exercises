@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">FirstApplication</string>
+    <string name="hello_text">Hello from Android Studio!</string>
+    <string name="hello_text_land">Hello from Android Studio in landscape mode!</string>
+    <string name="example_string">Another string over here!</string>
+    <string name="button_text">okay</string>
+    <string name="review_help_text">Please rate your experience:</string>
 </resources>

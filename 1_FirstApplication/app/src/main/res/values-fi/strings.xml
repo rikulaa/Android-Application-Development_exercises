@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EkaAppis</string>
+    <string name="hello_text">Hei Android studiosta!</string>
+    <string name="hello_text_land">Hei Android studiosta, vaakatasossa!</string>
+    <string name="example_string">Toinenkin merkkijono!</string>
+    <string name="button_text">Selvä</string>
+    <string name="review_help_text">Arvioi kokemuksesi:</string>
+</resources>
