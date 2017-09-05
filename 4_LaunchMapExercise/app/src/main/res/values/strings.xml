@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">4_LaunchMapExercise</string>
+    <string name="input_helper_text">Give a location (lat, lng)</string>
+    <string name="show_map_button">Show a map</string>
+</resources>
+
