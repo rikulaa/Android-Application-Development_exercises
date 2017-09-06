@@ -58,8 +58,8 @@ This page contains all the screenshots and links to the individual exercises
 [Link to exercise](4_LaunchMapExercise/)
 [Screenshots](screenshots/4_LaunchMapExercise)
 
-<img src="./screenshots/4_BasicUIControlExercise/Screenshot_1504623543.png" alt="Drawing" width="300px"></img>
-<img src="./screenshots/4_BasicUIControlExercise/Screenshot_1504623549.png" alt="Drawing" width="300px"></img>
+<img src="./screenshots/4_LaunchMapExercise/Screenshot_1504623543.png" alt="Drawing" width="300px"></img>
+<img src="./screenshots/4_LaunchMapExercise/Screenshot_1504623549.png" alt="Drawing" width="300px"></img>
 
 <hr>
 
