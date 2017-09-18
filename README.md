@@ -69,3 +69,21 @@ This page contains all the screenshots and links to the individual exercises
 
 <img src="./screenshots/5_ListViewExercise/Screenshot_1504627702.png" alt="Drawing" width="300px"></img>
 <img src="./screenshots/5_ListViewExercise/Screenshot_1504627706.png" alt="Drawing" width="300px"></img>
+
+## 6_CustomNotificationsDialogsToastExample
+
+[ Link to exercise ](6_CustomNotificationsDialogsToastExample)
+[ Screenshots ](screenshots/6_CustomNotificationsDialogsToastExample)
+
+Application creates notification when user exists app, and updates the notification displaying how many
+seconds the user has been away. 
+
+Originally, plan was to create intent with the notification which opens up the application but
+the program would always launch new timer when user returns to the app.
+
+There most likely is a much better way of handling background operations than just spawning timers when the users exits..
+
+<img src="./screenshots/6_CustomNotificationsDialogsToastExample/Screenshot_1505763823.png" alt="Drawing" width="300px"></img>
+<img src="./screenshots/6_CustomNotificationsDialogsToastExample/Screenshot_1505763839.png" alt="Drawing" width="300px"></img>
+<img src="./screenshots/6_CustomNotificationsDialogsToastExample/Screenshot_1505763845.png" alt="Drawing" width="300px"></img>
+<img src="./screenshots/6_CustomNotificationsDialogsToastExample/Screenshot_1505763984.png" alt="Drawing" width="300px"></img>
