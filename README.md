@@ -13,6 +13,7 @@ This page contains all the screenshots and links to the individual exercises
 * [3_BasicUIControlExercise](#3_basicuicontrolexercise)
 * [4_LaunchMapExercise](#4_launchmapexercise)
 * [5_ListViewExercise](#5_listviewexercise)
+* [6_CustomNotificationsDialogsToastExample](#6_customnotificationsdialogstoastexample)
 
 <!-- /code_chunk_output -->
 
