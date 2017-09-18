@@ -8,19 +8,21 @@ This page contains all the screenshots and links to the individual exercises
 <!-- code_chunk_output -->
 
 * [Contents](#contents)
-* [1_FirstApplication](#1_firstapplication)
-* [2_BasicUIControlExercise](#2_basicuicontrolexercise)
-* [3_BasicUIControlExercise](#3_basicuicontrolexercise)
-* [4_LaunchMapExercise](#4_launchmapexercise)
-* [5_ListViewExercise](#5_listviewexercise)
-* [6_CustomNotificationsDialogsToastExample](#6_customnotificationsdialogstoastexample)
+* [Week 35-36](#week-35-36)
+	* [1_FirstApplication](#1_firstapplication)
+	* [2_BasicUIControlExercise](#2_basicuicontrolexercise)
+	* [3_BasicUIControlExercise](#3_basicuicontrolexercise)
+	* [4_LaunchMapExercise](#4_launchmapexercise)
+	* [5_ListViewExercise](#5_listviewexercise)
+* [Week 37](#week-37)
+	* [6_CustomNotificationsDialogsToastExample](#6_customnotificationsdialogstoastexample)
 
 <!-- /code_chunk_output -->
 
 
+## Week 35-36
+### 1_FirstApplication
 
-
-## 1_FirstApplication
 [Link to exercise](1_FirstApplication/)
 [Screenshots](screenshots/1_FirstApplication)
 
@@ -36,7 +38,7 @@ This page contains all the screenshots and links to the individual exercises
 
 <hr>
 
-## 2_BasicUIControlExercise
+### 2_BasicUIControlExercise
 [Link to exercise](2_BasicUIControlExercise/)
 [Screenshots](screenshots/2_BasicUIControlExercise)
 
@@ -46,7 +48,7 @@ This page contains all the screenshots and links to the individual exercises
 
 <hr>
 
-## 3_BasicUIControlExercise
+### 3_BasicUIControlExercise
 [Link to exercise](3_BasicUIControlExercise/)
 [Screenshots](screenshots/3_BasicUIControlExercise)
 
@@ -55,7 +57,7 @@ This page contains all the screenshots and links to the individual exercises
 
 <hr>
 
-## 4_LaunchMapExercise
+### 4_LaunchMapExercise
 [Link to exercise](4_LaunchMapExercise/)
 [Screenshots](screenshots/4_LaunchMapExercise)
 
@@ -64,14 +66,17 @@ This page contains all the screenshots and links to the individual exercises
 
 <hr>
 
-## 5_ListViewExercise
+### 5_ListViewExercise
 [Link to exercise](5_ListViewExercise/)
 [Screenshots](screenshots/5_ListViewExercise)
 
 <img src="./screenshots/5_ListViewExercise/Screenshot_1504627702.png" alt="Drawing" width="300px"></img>
 <img src="./screenshots/5_ListViewExercise/Screenshot_1504627706.png" alt="Drawing" width="300px"></img>
 
-## 6_CustomNotificationsDialogsToastExample
+<hr>
+
+## Week 37
+### 6_CustomNotificationsDialogsToastExample
 
 [ Link to exercise ](6_CustomNotificationsDialogsToastExample)
 [ Screenshots ](screenshots/6_CustomNotificationsDialogsToastExample)
