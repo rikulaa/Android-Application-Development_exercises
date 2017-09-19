@@ -6,6 +6,7 @@ import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     private String[] images = {"1.jpeg","2.jpeg","3.jpeg"};
     // which image is now visible
     private int imageIndex;
+    private int prevIndex;
     // async task to load a new image
     private DownloadImageTask task;
     // swipe down and up values
@@ -53,6 +55,39 @@ public class MainActivity extends AppCompatActivity {
         task = new DownloadImageTask();
         // start asynctask
         task.execute(PATH + images[imageIndex]);
+    }
+
+    public boolean onTouchEvent(MotionEvent event) {
+        // dont run if start/end of the list
+
+        switch (event.getAction()) {
+            case MotionEvent.ACTION_DOWN:
+                // user touches screen
+                x1 = event.getX();
+                break;
+            case MotionEvent.ACTION_UP:
+                // user lifts finger up from screen
+                x2 = event.getX();
+
+                prevIndex = imageIndex;
+                // swipes left to right => go back
+                if (x1 < x2) {
+                    imageIndex = (imageIndex > 0) ? imageIndex - 1 : 0;
+                } else {
+                    //swipes right to left => go forward
+                    imageIndex = (imageIndex < images.length - 1) ? imageIndex + 1 : images.length - 1;
+                }
+
+                // dont update if already at the start/end of the list
+                if (prevIndex != imageIndex) {
+                    showImage();
+                }
+                break;
+
+
+        }
+        Log.e("sd", String.valueOf(imageIndex));
+        return false;
     }
 
     // asynctask class
