@@ -93,3 +93,28 @@ There most likely is a much better way of handling background operations than ju
 <img src="./screenshots/6_CustomNotificationsDialogsToastExample/Screenshot_1505763839.png" alt="Drawing" width="300px"></img>
 <img src="./screenshots/6_CustomNotificationsDialogsToastExample/Screenshot_1505763845.png" alt="Drawing" width="300px"></img>
 <img src="./screenshots/6_CustomNotificationsDialogsToastExample/Screenshot_1505763984.png" alt="Drawing" width="300px"></img>
+
+
+## Week 38
+
+### 7_ImageViewExercise
+
+[ Link to exercise ](7_ImageViewExercise)
+[ Screenshots ](screenshots/7_ImageViewExercise)
+
+<img src="./screenshots/7_ImageViewExercise/Screenshot_1505830839.png" alt="Drawing" width="300px"></img>
+<img src="./screenshots/7_ImageViewExercise/Screenshot_1505830842.png" alt="Drawing" width="300px"></img>
+<img src="./screenshots/7_ImageViewExercise/Screenshot_1505830858.png" alt="Drawing" width="300px"></img>
+<img src="./screenshots/7_ImageViewExercise/Screenshot_1505830928.png" alt="Drawing" width="300px"></img>
+
+
+### 8_Mp3PlayerExercise
+
+[ Link to exercise ](8_Mp3PlayerExercise)
+[ Screenshots ](screenshots/8_Mp3PlayerExercise)
+
+Small media player where user can play mp3 files. The current song is being highlighted.
+
+<img src="./screenshots/8_Mp3PlayerExercise/Screenshot_1506193983.png" alt="Drawing" width="300px"></img>
+<img src="./screenshots/8_Mp3PlayerExercise/Screenshot_1506194629.png" alt="Drawing" width="300px"></img>
+<img src="./screenshots/8_Mp3PlayerExercise/Screenshot_1506194635.png" alt="Drawing" width="300px"></img>
