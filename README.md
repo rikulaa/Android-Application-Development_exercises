@@ -16,6 +16,7 @@ This page contains all the screenshots and links to the individual exercises
 	* [5_ListViewExercise](#5_listviewexercise)
 * [Week 37](#week-37)
 	* [6_CustomNotificationsDialogsToastExample](#6_customnotificationsdialogstoastexample)
+* [Week 38 (*New)](#week-38)
   * [7_ImageViewExercise](#7_imageviewexercise)
   * [8_Mp3PlayerExercise](#8_mp3playerexercise)
 <!-- /code_chunk_output -->
