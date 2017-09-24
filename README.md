@@ -19,6 +19,7 @@ This page contains all the screenshots and links to the individual exercises
 * [Week 38 (*New)](#week-38)
   * [7_ImageViewExercise](#7_imageviewexercise)
   * [8_Mp3PlayerExercise](#8_mp3playerexercise)
+  * [9_PicassoLibraryExample](#9_picassolibraryexample)
 <!-- /code_chunk_output -->
 
 
@@ -120,3 +121,14 @@ Small media player where user can play mp3 files. The current song is being high
 <img src="./screenshots/8_Mp3PlayerExercise/Screenshot_1506193983.png" alt="Drawing" width="300px"></img>
 <img src="./screenshots/8_Mp3PlayerExercise/Screenshot_1506194629.png" alt="Drawing" width="300px"></img>
 <img src="./screenshots/8_Mp3PlayerExercise/Screenshot_1506194635.png" alt="Drawing" width="300px"></img>
+
+### 9_PicassoLibraryExample
+
+[ Link to exercise ](9_PicassoLibraryExample)
+[ Screenshots ](screenshots/9_PicassoLibraryExample)
+
+Loads random image when clicking the button. (Random = one of the three images located in authors labranet server)
+
+<img src="./screenshots/9_PicassoLibraryExample/Screenshot_1506236096.png" alt="Drawing" width="300px"></img>
+<img src="./screenshots/9_PicassoLibraryExample/Screenshot_1506236105.png" alt="Drawing" width="300px"></img>
+<img src="./screenshots/9_PicassoLibraryExample/Screenshot_1506236127.png" alt="Drawing" width="300px"></img>
