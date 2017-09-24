@@ -98,6 +98,7 @@ There most likely is a much better way of handling background operations than ju
 <img src="./screenshots/6_CustomNotificationsDialogsToastExample/Screenshot_1505763845.png" alt="Drawing" width="300px"></img>
 <img src="./screenshots/6_CustomNotificationsDialogsToastExample/Screenshot_1505763984.png" alt="Drawing" width="300px"></img>
 
+<hr>
 
 ## Week 38
 
@@ -111,6 +112,7 @@ There most likely is a much better way of handling background operations than ju
 <img src="./screenshots/7_ImageViewExercise/Screenshot_1505830858.png" alt="Drawing" width="300px"></img>
 <img src="./screenshots/7_ImageViewExercise/Screenshot_1505830928.png" alt="Drawing" width="300px"></img>
 
+<hr>
 
 ### 8_Mp3PlayerExercise
 
@@ -123,6 +125,8 @@ Small media player where user can play mp3 files. The current song is being high
 <img src="./screenshots/8_Mp3PlayerExercise/Screenshot_1506194629.png" alt="Drawing" width="300px"></img>
 <img src="./screenshots/8_Mp3PlayerExercise/Screenshot_1506194635.png" alt="Drawing" width="300px"></img>
 
+<hr>
+
 ### 9_PicassoLibraryExample
 
 [ Link to exercise ](9_PicassoLibraryExample)
@@ -134,6 +138,7 @@ Loads random image when clicking the button. (Random = one of the three images l
 <img src="./screenshots/9_PicassoLibraryExample/Screenshot_1506236105.png" alt="Drawing" width="300px"></img>
 <img src="./screenshots/9_PicassoLibraryExample/Screenshot_1506236127.png" alt="Drawing" width="300px"></img>
 
+<hr>
 
 ### 10_YoutubeApiExample
 
