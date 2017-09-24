@@ -1,0 +1,43 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtube_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/playButton"
+        android:onClick="handlePlayButtonClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play/Pause"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/previousButton"
+        android:onClick="handleChangeSongButtonClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous"
+        android:layout_alignBaseline="@+id/playButton"
+        android:layout_alignBottom="@+id/playButton"
+        android:layout_toStartOf="@+id/playButton"
+        android:layout_marginEnd="25dp" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:onClick="handleChangeSongButtonClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/playButton"
+        android:layout_marginStart="28dp"
+        android:layout_toEndOf="@+id/playButton"
+        android:text="Next" />
+
+</RelativeLayout>

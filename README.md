@@ -20,6 +20,7 @@ This page contains all the screenshots and links to the individual exercises
   * [7_ImageViewExercise](#7_imageviewexercise)
   * [8_Mp3PlayerExercise](#8_mp3playerexercise)
   * [9_PicassoLibraryExample](#9_picassolibraryexample)
+  * [10_YoutubeApiExample](#10_youtubeapiexample)
 <!-- /code_chunk_output -->
 
 
@@ -132,3 +133,17 @@ Loads random image when clicking the button. (Random = one of the three images l
 <img src="./screenshots/9_PicassoLibraryExample/Screenshot_1506236096.png" alt="Drawing" width="300px"></img>
 <img src="./screenshots/9_PicassoLibraryExample/Screenshot_1506236105.png" alt="Drawing" width="300px"></img>
 <img src="./screenshots/9_PicassoLibraryExample/Screenshot_1506236127.png" alt="Drawing" width="300px"></img>
+
+
+### 10_YoutubeApiExample
+
+[ Link to exercise ](10_YoutubeApiExample)
+[ Screenshots ](screenshots/10_YoutubeApiExample)
+
+Very basic example of the youtube api. Load and play songs from predefined list (doesn't implement the youtube's own playlist).
+Requires the YouTube Data API v3. Api-key will be loaded from the Config.java class
+
+<img src="./screenshots/10_YoutubeApiExample/Screenshot_1506245288.png" alt="Drawing" width="300px"></img>
+<img src="./screenshots/10_YoutubeApiExample/Screenshot_1506245300.png" alt="Drawing" width="300px"></img>
+<img src="./screenshots/10_YoutubeApiExample/Screenshot_1506245343.png" alt="Drawing" width="300px"></img>
+<img src="./screenshots/10_YoutubeApiExample/Screenshot_1506245374.png" alt="Drawing" width="300px"></img>
