@@ -16,11 +16,13 @@ This page contains all the screenshots and links to the individual exercises
 	* [5_ListViewExercise](#5_listviewexercise)
 * [Week 37](#week-37)
 	* [6_CustomNotificationsDialogsToastExample](#6_customnotificationsdialogstoastexample)
-* [Week 38 (*New)](#week-38)
+* [Week 38](#week-38)
   * [7_ImageViewExercise](#7_imageviewexercise)
   * [8_Mp3PlayerExercise](#8_mp3playerexercise)
   * [9_PicassoLibraryExample](#9_picassolibraryexample)
   * [10_YoutubeApiExample](#10_youtubeapiexample)
+* [Week 39 (*New)](#week-39)
+  * [11_SaveAndRestoreActivityStateExercise](#11_saveandrestoreactivitystateexercise)
 <!-- /code_chunk_output -->
 
 
@@ -152,3 +154,22 @@ Requires the YouTube Data API v3. Api-key will be loaded from the Config.java cl
 <img src="./screenshots/10_YoutubeApiExample/Screenshot_1506245300.png" alt="Drawing" width="300px"></img>
 <img src="./screenshots/10_YoutubeApiExample/Screenshot_1506245343.png" alt="Drawing" width="300px"></img>
 <img src="./screenshots/10_YoutubeApiExample/Screenshot_1506245374.png" alt="Drawing" width="300px"></img>
+
+
+<hr>
+
+## Week 38
+
+### 11_SaveAndRestoreActivityStateExercise
+
+[ Link to exercise ](11_SaveAndRestoreActivityStateExercise)
+[ Screenshots ](screenshots/11_SaveAndRestoreActivityStateExercise)
+
+If layout is not set for the landscape mode the program will crash.
+
+<img src="./screenshots/11_SaveAndRestoreActivityStateExercise/Screenshot_1506770185.png" alt="Drawing" width="300px"></img>
+<img src="./screenshots/11_SaveAndRestoreActivityStateExercise/Screenshot_1506770234.png" alt="Drawing" width="300px"></img>
+<img src="./screenshots/11_SaveAndRestoreActivityStateExercise/Screenshot_1506770247.png" alt="Drawing" width="300px"></img>
+<img src="./screenshots/11_SaveAndRestoreActivityStateExercise/Screenshot_1506770251.png" alt="Drawing" width="600px"></img>
+
+<hr>
