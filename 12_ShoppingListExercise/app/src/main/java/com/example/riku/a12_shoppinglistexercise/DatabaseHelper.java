@@ -15,37 +15,30 @@ import java.util.List;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
     // Database Version
-    private static final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 3;
     // Database Name
     private static final String DATABASE_NAME = "ShoppingList.db";
     // Contacts table name
     private static final String TABLE_NAME = "shopping_list";
     // column names
-    private static final String COLUMN_ID = "id";
+    private static final String COLUMN_ID = "_id";
     private static final String COLUMN_NAME = "name";
     private static final String COLUMN_AMOUNT = "amount";
     private static final String COLUMN_PRICE = "price";
 
+    Cursor cursor;
+
 
     // queries to create and delete database
-    private static final String SQL_CREATE_ENTRIES =
-            "CREATE TABLE "
-                    + TABLE_NAME
-                    + " ("
-                    + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
-                    + COLUMN_NAME + " TEXT,"
-                    + COLUMN_AMOUNT + " INT,"
-                    + COLUMN_PRICE  + "DOUBLE"
-                    + ");";
-
-    private static final String SQL_DELETE_ENTRIES =
-            "DROP TABLE IF EXISTS " + TABLE_NAME;
+    private static final String SQL_CREATE_ENTRIES = "CREATE TABLE " + TABLE_NAME + " (" + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT," + COLUMN_NAME + " TEXT," + COLUMN_PRICE  + " DOUBLE," + COLUMN_AMOUNT + " INT);";
+    private static final String SQL_DELETE_ENTRIES = "DROP TABLE " + TABLE_NAME;
 
     public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
     public  void onCreate(SQLiteDatabase database) {
+        //database.execSQL(SQL_DELETE_ENTRIES);
        database.execSQL(SQL_CREATE_ENTRIES);
     }
 
@@ -61,10 +54,12 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         List<ShoppingListItem> shoppingList =  new ArrayList<>();
         int index = 0;
         // select all
-        String select = "SELECT * FROM " + TABLE_NAME;
+        String select = "SELECT name, amount, price FROM " + TABLE_NAME;
 
         SQLiteDatabase db = this.getReadableDatabase();
-        return db.rawQuery(select, null);
+        //cursor = db.rawQuery(select, null);
+        String[] columns = {"_id", "name", "amount", "price" };
+        return db.query(TABLE_NAME, columns, null, null, null, null, null, null);
 
         //if (cursor.moveToFirst()) {
             //do {
@@ -80,6 +75,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             //} while (cursor.moveToNext());
         //}
 
+        //cursor.close();
+
         //return shoppingList;
     }
 
@@ -94,7 +91,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         values.put(COLUMN_NAME, item.getName());
         values.put(COLUMN_AMOUNT, item.getAmount());
         values.put(COLUMN_PRICE, item.getPrice());
-        db.insert(TABLE_NAME, null, values);
+        long index = db.insert(TABLE_NAME, null, values);
+        item.setIndex(index);
     }
 
     public void updateShoppingListItem(ShoppingListItem item) {
@@ -111,12 +109,18 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.update(TABLE_NAME, values, whereClause, whereArgs);
     }
 
-    public void deleteShoppingListItem(ShoppingListItem item) {
+    public void deleteShoppingListItemAtIndex(Long index) {
         SQLiteDatabase db = this.getWritableDatabase();
-        String whereClause = COLUMN_NAME + "LIKE ?";
-        String[] whereArgs = {item.getName()};
+        String whereClause = COLUMN_ID + " = ?";
+        String[] whereArgs = {String.valueOf(index)};
 
         db.delete(TABLE_NAME, whereClause, whereArgs);
+    }
+
+    public void deleteAllShoppingListItems() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        db.delete(TABLE_NAME, null, null);
+
     }
 
 

@@ -23,6 +23,7 @@ This page contains all the screenshots and links to the individual exercises
   * [10_YoutubeApiExample](#10_youtubeapiexample)
 * [Week 39 (*New)](#week-39)
   * [11_SaveAndRestoreActivityStateExercise](#11_saveandrestoreactivitystateexercise)
+  * [12_ShoppingListExercise](#12_shoppinglistexercise)
 <!-- /code_chunk_output -->
 
 
@@ -158,7 +159,7 @@ Requires the YouTube Data API v3. Api-key will be loaded from the Config.java cl
 
 <hr>
 
-## Week 38
+## Week 39
 
 ### 11_SaveAndRestoreActivityStateExercise
 
@@ -173,3 +174,15 @@ If layout is not set for the landscape mode the program will crash.
 <img src="./screenshots/11_SaveAndRestoreActivityStateExercise/Screenshot_1506770251.png" alt="Drawing" width="600px"></img>
 
 <hr>
+
+### 12_ShoppingListExercise
+
+[ Link to exercise ](12_ShoppingListExercise)
+[ Screenshots ](screenshots/12_ShoppingListExercise)
+
+
+<img src="./screenshots/12_ShoppingListExercise/Screenshot_1506975653.png" alt="Drawing" width="300px"></img>
+<img src="./screenshots/12_ShoppingListExercise/Screenshot_1506975669.png" alt="Drawing" width="300px"></img>
+<img src="./screenshots/12_ShoppingListExercise/Screenshot_1506975671.png" alt="Drawing" width="300px"></img>
+<img src="./screenshots/12_ShoppingListExercise/Screenshot_1506975683.png" alt="Drawing" width="300px"></img>
+<img src="./screenshots/12_ShoppingListExercise/Screenshot_1506975687.png" alt="Drawing" width="300px"></img>

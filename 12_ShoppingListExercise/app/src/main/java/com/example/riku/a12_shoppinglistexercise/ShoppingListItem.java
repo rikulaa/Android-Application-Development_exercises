@@ -8,6 +8,7 @@ public class ShoppingListItem {
     private String name;
     private int amount;
     private double price;
+    private long index;
 
     public ShoppingListItem(String name, int amount, double price) {
         this.name = name;
@@ -16,6 +17,7 @@ public class ShoppingListItem {
     }
 
     // read values
+    public long getIndex() { return this.index; }
     public String getName() {
         return this.name;
     }
@@ -29,9 +31,14 @@ public class ShoppingListItem {
     }
 
     // update properties
+    public void setIndex (long index) {
+        this.index = index;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
+
 
     public void setAmount(int amount) {
         this.amount = amount;

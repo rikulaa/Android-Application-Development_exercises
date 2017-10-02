@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add new product"
+        android:layout_marginTop="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="33dp"
+        android:text="Product"
+        android:layout_alignBaseline="@+id/add_new_product_name"
+        android:layout_alignBottom="@+id/add_new_product_name"
+        android:layout_toStartOf="@+id/add_new_product_name" />
+
+    <EditText
+        android:id="@+id/add_new_product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/product_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/add_new_product_price"
+        android:layout_alignBottom="@+id/add_new_product_price"
+        android:layout_alignEnd="@+id/product_name"
+        android:text="Price" />
+
+    <EditText
+        android:id="@+id/add_new_product_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_below="@+id/add_new_product_name"
+        android:layout_alignStart="@+id/add_new_product_name" />
+
+    <TextView
+        android:id="@+id/product_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Count"
+        android:layout_alignBaseline="@+id/add_new_product_count"
+        android:layout_alignBottom="@+id/add_new_product_count"
+        android:layout_alignStart="@+id/product_price" />
+
+    <EditText
+        android:id="@+id/add_new_product_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_below="@+id/add_new_product_price"
+        android:layout_alignStart="@+id/add_new_product_price" />
+</RelativeLayout>
