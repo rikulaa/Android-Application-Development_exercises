@@ -166,8 +166,6 @@ Requires the YouTube Data API v3. Api-key will be loaded from the Config.java cl
 [ Link to exercise ](11_SaveAndRestoreActivityStateExercise)
 [ Screenshots ](screenshots/11_SaveAndRestoreActivityStateExercise)
 
-If layout is not set for the landscape mode the program will crash.
-
 <img src="./screenshots/11_SaveAndRestoreActivityStateExercise/Screenshot_1506770185.png" alt="Drawing" width="300px"></img>
 <img src="./screenshots/11_SaveAndRestoreActivityStateExercise/Screenshot_1506770234.png" alt="Drawing" width="300px"></img>
 <img src="./screenshots/11_SaveAndRestoreActivityStateExercise/Screenshot_1506770247.png" alt="Drawing" width="300px"></img>
@@ -180,6 +178,7 @@ If layout is not set for the landscape mode the program will crash.
 [ Link to exercise ](12_ShoppingListExercise)
 [ Screenshots ](screenshots/12_ShoppingListExercise)
 
+Not so visually pleasant and bug free program for keeping your shopping list updated!
 
 <img src="./screenshots/12_ShoppingListExercise/Screenshot_1506975653.png" alt="Drawing" width="300px"></img>
 <img src="./screenshots/12_ShoppingListExercise/Screenshot_1506975669.png" alt="Drawing" width="300px"></img>
