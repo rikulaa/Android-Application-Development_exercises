@@ -178,7 +178,7 @@ Requires the YouTube Data API v3. Api-key will be loaded from the Config.java cl
 [ Link to exercise ](12_ShoppingListExercise)
 [ Screenshots ](screenshots/12_ShoppingListExercise)
 
-Not so visually pleasant and bug free program for keeping your shopping list updated!
+Ugly and buggy program for keeping your shopping list up to date!
 
 <img src="./screenshots/12_ShoppingListExercise/Screenshot_1506975653.png" alt="Drawing" width="300px"></img>
 <img src="./screenshots/12_ShoppingListExercise/Screenshot_1506975669.png" alt="Drawing" width="300px"></img>
