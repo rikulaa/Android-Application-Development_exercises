@@ -21,9 +21,11 @@ This page contains all the screenshots and links to the individual exercises
   * [8_Mp3PlayerExercise](#8_mp3playerexercise)
   * [9_PicassoLibraryExample](#9_picassolibraryexample)
   * [10_YoutubeApiExample](#10_youtubeapiexample)
-* [Week 39 (*New)](#week-39)
+* [Week 39 ](#week-39)
   * [11_SaveAndRestoreActivityStateExercise](#11_saveandrestoreactivitystateexercise)
   * [12_ShoppingListExercise](#12_shoppinglistexercise)
+* [Week 40 (*New)](#week-40)
+  * [13_GoogleMapsApi](#13_googlemapsapi)
 <!-- /code_chunk_output -->
 
 
@@ -185,3 +187,24 @@ Ugly and buggy program for keeping your shopping list up to date!
 <img src="./screenshots/12_ShoppingListExercise/Screenshot_1506975671.png" alt="Drawing" width="300px"></img>
 <img src="./screenshots/12_ShoppingListExercise/Screenshot_1506975683.png" alt="Drawing" width="300px"></img>
 <img src="./screenshots/12_ShoppingListExercise/Screenshot_1506975687.png" alt="Drawing" width="300px"></img>
+
+
+<hr>
+
+## Week 40
+
+### 13_GoogleMapsAPi
+
+[ Link to exercise ](13_GoogleMapsApi)
+[ Screenshots ](screenshots/13_GoogleMapsApi)
+
+Shows all of Finlands Otto Cash Machines on map. When clicking on marker, it show a small info about the current Otto and displays the distance in meters.
+
+
+<img src="./screenshots/13_GoogleMapsApi/Screenshot_1507381101.png" alt="Drawing" width="300px"></img>
+<img src="./screenshots/13_GoogleMapsApi/Screenshot_1507381127.png" alt="Drawing" width="300px"></img>
+<img src="./screenshots/13_GoogleMapsApi/Screenshot_1507381136.png" alt="Drawing" width="300px"></img>
+<img src="./screenshots/13_GoogleMapsApi/Screenshot_1507381145.png" alt="Drawing" width="300px"></img>
+<img src="./screenshots/13_GoogleMapsApi/Screenshot_1507381156.png" alt="Drawing" width="300px"></img>
+
+<hr>
