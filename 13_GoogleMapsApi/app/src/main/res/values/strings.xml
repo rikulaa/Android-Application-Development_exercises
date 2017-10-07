@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">13_GoogleMapsApi</string>
     <string name="title_activity_maps">Map</string>
+    <string name="google_locations_key">AIzaSyAyeRlKxbztgF56gPRVdda71ka7CWqq2dM</string>
 </resources>
