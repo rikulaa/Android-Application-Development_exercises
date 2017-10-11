@@ -19,6 +19,6 @@ public class Places {
             place.imageName = placeNameArray[i].replaceAll("\\s+", "").toLowerCase();
             list.add(place);
         }
-        return list;
+      return list;
     }
 }
